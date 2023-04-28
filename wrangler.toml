@@ -1,0 +1,7 @@
+name = "test-worker"
+main = "build/worker/shim.mjs"
+compatibility_date = "2023-04-28"
+account_id = "6c1d9096f6e616759bed05418cff81be"
+
+[build]
+command = "cargo install -q worker-build && worker-build --release"
