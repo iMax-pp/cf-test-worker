@@ -3,5 +3,9 @@ main = "build/worker/shim.mjs"
 compatibility_date = "2023-04-28"
 account_id = "6c1d9096f6e616759bed05418cff81be"
 
+kv_namespaces = [
+    { binding = "stats", id = "628e88c434444dd3bcc67dd3e51527b4", preview_id = "d46904a527fd4880baaffdbc55333d96" }
+]
+
 [build]
 command = "cargo install -q worker-build && worker-build --release"
