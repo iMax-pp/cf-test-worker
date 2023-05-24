@@ -4,7 +4,7 @@ compatibility_date = "2023-04-28"
 account_id = "6c1d9096f6e616759bed05418cff81be"
 
 kv_namespaces = [
-    { binding = "stats", id = "628e88c434444dd3bcc67dd3e51527b4", preview_id = "d46904a527fd4880baaffdbc55333d96" }
+    { binding = "users", id = "4448307fa3ac41748b2859d26d897a80", preview_id = "525be4ffc4ec49f88d7e6b6d7d82fc7d" }
 ]
 
 [build]
